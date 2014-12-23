@@ -18,8 +18,7 @@ app.use(methodOverride());
 // Import Models
 var models = require('./models/tvshows');
 
-// Import Controllers
-var TVShowCtrl = require('./controllers/tvshows');
+// Import Controllers in route file
 
 // Import Routes
 var tvshows = require('./routes/tvshows');

@@ -1,6 +1,8 @@
 //File: routes/tvshows.js
 var express = require('express');
 var tvshows = express.Router();
+
+// Import Controllers
 var TVShowCtrl = require('../controllers/tvshows');
 
 tvshows.route('/tvshows')
